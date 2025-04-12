@@ -1,5 +1,5 @@
-Beyond artificial potential field
-
+** **Beyond Artificial Potential Field**, Better Planning with dynamic BFS under partial observation
+**
 **当前方案核心：基于学习的、去中心化的局部势场生成**
 
 方法的核心在于：
