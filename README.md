@@ -21,4 +21,5 @@ your_project/
 ├── train.py                  # Training script (from step 3)
 ├── evaluate.py               # Evaluation script (from step 4)
 └── demo.py                   # Demo script (from step 5)
-└── mapf_simulation_xxx.py                   # MAPF simulation script (from step 5)
+└── mapf_simulation_xxx.py                   # MAPF simulation script (from step 6)
+└── slbfs_controller.py        # baseline1 directly use BFS for each step
