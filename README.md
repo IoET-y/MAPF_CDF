@@ -89,7 +89,8 @@ Beyond artificial potential field
 
 输入可视化
 
-![image.png](attachment:218a4166-5000-49d4-be79-fc2cbecd0f0b:image.png)
+![image](https://github.com/user-attachments/assets/0945bc89-7747-4cf6-ae8f-43e02f33a12d)
+
 
 
 ```text
