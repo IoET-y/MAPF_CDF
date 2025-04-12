@@ -1,0 +1,88 @@
+2025-04-12 02:58:26,684 - INFO - Using device: cuda
+2025-04-12 02:58:26,684 - INFO - Loading dataset...
+2025-04-12 02:58:26,877 - INFO - Scanning 31191 NPZ files in ../MAPF-GPT/prepared_agent_centric_dataset_v3...
+2025-04-12 02:58:57,917 - INFO - Dataset initialized: Found 935696 agent samples across 31191 files (skipped 0 files).
+2025-04-12 02:58:57,977 - INFO - Dataset split: Train=795342, Validation=140354
+2025-04-12 02:58:57,978 - INFO - DataLoaders created.
+2025-04-12 02:58:57,978 - INFO - Initializing PotentialFieldUNet:
+2025-04-12 02:58:57,978 - INFO -   Input Channels: 4
+2025-04-12 02:58:57,978 - INFO -   Output Channels: 1
+2025-04-12 02:58:57,978 - INFO -   Bilinear Upsampling: True
+2025-04-12 02:58:57,978 - INFO -   Base Channels: 64
+2025-04-12 02:58:59,326 - INFO - Optimizer: AdamW, Learning Rate: 0.001
+2025-04-12 02:58:59,326 - INFO - Loss Function: MSE
+2025-04-12 02:58:59,532 - INFO - Starting training from epoch 1/20
+2025-04-12 03:02:04,420 - INFO - End of Epoch [1/20] - Training Loss: 31.918652
+2025-04-12 03:02:41,495 - INFO - End of Epoch [1/20] - Validation Loss: 16.500676
+2025-04-12 03:02:41,496 - INFO - Epoch 1 duration: 221.96 seconds
+2025-04-12 03:02:42,043 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 16.500676)
+2025-04-12 03:05:45,762 - INFO - End of Epoch [2/20] - Training Loss: 9.250846
+2025-04-12 03:06:22,579 - INFO - End of Epoch [2/20] - Validation Loss: 4.116303
+2025-04-12 03:06:22,580 - INFO - Epoch 2 duration: 220.54 seconds
+2025-04-12 03:06:23,121 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 4.116303)
+2025-04-12 03:09:28,842 - INFO - End of Epoch [3/20] - Training Loss: 1.543563
+2025-04-12 03:10:05,954 - INFO - End of Epoch [3/20] - Validation Loss: 2.875330
+2025-04-12 03:10:05,954 - INFO - Epoch 3 duration: 222.83 seconds
+2025-04-12 03:10:06,499 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 2.875330)
+2025-04-12 03:13:10,602 - INFO - End of Epoch [4/20] - Training Loss: 0.963838
+2025-04-12 03:13:47,730 - INFO - End of Epoch [4/20] - Validation Loss: 0.913151
+2025-04-12 03:13:47,730 - INFO - Epoch 4 duration: 221.23 seconds
+2025-04-12 03:13:48,323 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.913151)
+2025-04-12 03:16:53,019 - INFO - End of Epoch [5/20] - Training Loss: 0.866486
+2025-04-12 03:17:29,889 - INFO - End of Epoch [5/20] - Validation Loss: 0.859923
+2025-04-12 03:17:29,890 - INFO - Epoch 5 duration: 221.57 seconds
+2025-04-12 03:17:30,471 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.859923)
+2025-04-12 03:20:33,228 - INFO - End of Epoch [6/20] - Training Loss: 0.845694
+2025-04-12 03:21:10,572 - INFO - End of Epoch [6/20] - Validation Loss: 0.845637
+2025-04-12 03:21:10,573 - INFO - Epoch 6 duration: 220.10 seconds
+2025-04-12 03:21:11,139 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.845637)
+2025-04-12 03:24:13,670 - INFO - End of Epoch [7/20] - Training Loss: 0.834988
+2025-04-12 03:24:50,993 - INFO - End of Epoch [7/20] - Validation Loss: 0.873149
+2025-04-12 03:24:50,993 - INFO - Epoch 7 duration: 219.85 seconds
+2025-04-12 03:27:55,015 - INFO - End of Epoch [8/20] - Training Loss: 0.829827
+2025-04-12 03:28:32,262 - INFO - End of Epoch [8/20] - Validation Loss: 0.832866
+2025-04-12 03:28:32,262 - INFO - Epoch 8 duration: 221.27 seconds
+2025-04-12 03:28:32,834 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.832866)
+2025-04-12 03:31:35,328 - INFO - End of Epoch [9/20] - Training Loss: 0.819877
+2025-04-12 03:32:12,600 - INFO - End of Epoch [9/20] - Validation Loss: 0.832984
+2025-04-12 03:32:12,600 - INFO - Epoch 9 duration: 219.77 seconds
+2025-04-12 03:35:15,670 - INFO - End of Epoch [10/20] - Training Loss: 0.812017
+2025-04-12 03:35:52,910 - INFO - End of Epoch [10/20] - Validation Loss: 0.824967
+2025-04-12 03:35:52,911 - INFO - Epoch 10 duration: 220.31 seconds
+2025-04-12 03:35:53,452 - INFO - Checkpoint saved to training_output/checkpoints/checkpoint_epoch_10.pth
+2025-04-12 03:35:53,994 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.824967)
+2025-04-12 03:38:55,686 - INFO - End of Epoch [11/20] - Training Loss: 0.815410
+2025-04-12 03:39:32,515 - INFO - End of Epoch [11/20] - Validation Loss: 0.828065
+2025-04-12 03:39:32,515 - INFO - Epoch 11 duration: 218.52 seconds
+2025-04-12 03:42:35,435 - INFO - End of Epoch [12/20] - Training Loss: 0.805767
+2025-04-12 03:43:12,103 - INFO - End of Epoch [12/20] - Validation Loss: 0.930943
+2025-04-12 03:43:12,103 - INFO - Epoch 12 duration: 219.59 seconds
+2025-04-12 03:46:14,609 - INFO - End of Epoch [13/20] - Training Loss: 0.866139
+2025-04-12 03:46:51,304 - INFO - End of Epoch [13/20] - Validation Loss: 0.837098
+2025-04-12 03:46:51,305 - INFO - Epoch 13 duration: 219.20 seconds
+2025-04-12 03:49:54,862 - INFO - End of Epoch [14/20] - Training Loss: 0.808888
+2025-04-12 03:50:31,878 - INFO - End of Epoch [14/20] - Validation Loss: 0.829505
+2025-04-12 03:50:31,878 - INFO - Epoch 14 duration: 220.57 seconds
+2025-04-12 03:53:36,689 - INFO - End of Epoch [15/20] - Training Loss: 0.803388
+2025-04-12 03:54:13,775 - INFO - End of Epoch [15/20] - Validation Loss: 0.817864
+2025-04-12 03:54:13,776 - INFO - Epoch 15 duration: 221.90 seconds
+2025-04-12 03:54:14,319 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.817864)
+2025-04-12 03:57:16,359 - INFO - End of Epoch [16/20] - Training Loss: 0.797962
+2025-04-12 03:57:53,347 - INFO - End of Epoch [16/20] - Validation Loss: 0.829995
+2025-04-12 03:57:53,347 - INFO - Epoch 16 duration: 219.03 seconds
+2025-04-12 04:00:55,158 - INFO - End of Epoch [17/20] - Training Loss: 0.793926
+2025-04-12 04:01:32,338 - INFO - End of Epoch [17/20] - Validation Loss: 0.807458
+2025-04-12 04:01:32,339 - INFO - Epoch 17 duration: 218.99 seconds
+2025-04-12 04:01:32,881 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.807458)
+2025-04-12 04:04:36,780 - INFO - End of Epoch [18/20] - Training Loss: 0.793257
+2025-04-12 04:05:14,055 - INFO - End of Epoch [18/20] - Validation Loss: 0.826294
+2025-04-12 04:05:14,056 - INFO - Epoch 18 duration: 221.17 seconds
+2025-04-12 04:08:19,575 - INFO - End of Epoch [19/20] - Training Loss: 0.789462
+2025-04-12 04:08:56,684 - INFO - End of Epoch [19/20] - Validation Loss: 0.803675
+2025-04-12 04:08:56,684 - INFO - Epoch 19 duration: 222.63 seconds
+2025-04-12 04:08:57,227 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.803675)
+2025-04-12 04:12:01,088 - INFO - End of Epoch [20/20] - Training Loss: 0.786107
+2025-04-12 04:12:38,571 - INFO - End of Epoch [20/20] - Validation Loss: 0.811591
+2025-04-12 04:12:38,571 - INFO - Epoch 20 duration: 221.34 seconds
+2025-04-12 04:12:39,109 - INFO - Checkpoint saved to training_output/checkpoints/checkpoint_epoch_20.pth
+2025-04-12 04:12:39,110 - INFO - Finished Training

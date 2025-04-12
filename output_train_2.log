@@ -1,0 +1,444 @@
+nohup: ignoring input
+2025-04-12 06:52:17,516 - INFO - Using device: cuda
+2025-04-12 06:52:17,516 - INFO - Loading dataset...
+2025-04-12 06:52:18,173 - INFO - Scanning 77834 NPZ files in ../MAPF-GPT/prepared_agent_centric_dataset_v4...
+2025-04-12 06:54:35,660 - INFO - Dataset initialized: Found 2334816 agent samples across 77834 files (skipped 0 files).
+2025-04-12 06:54:35,874 - INFO - Dataset split: Train=2101335, Validation=233481
+2025-04-12 06:54:35,874 - INFO - DataLoaders created.
+2025-04-12 06:54:35,874 - INFO - Initializing PotentialFieldUNet:
+2025-04-12 06:54:35,874 - INFO -   Input Channels: 6
+2025-04-12 06:54:35,874 - INFO -   Output Channels: 1
+2025-04-12 06:54:35,875 - INFO -   Bilinear Upsampling: True
+2025-04-12 06:54:35,875 - INFO -   Base Channels: 64
+2025-04-12 06:54:37,058 - INFO - Optimizer: AdamW, Learning Rate: 0.001
+2025-04-12 06:54:37,058 - INFO - Loss Function: MSE
+2025-04-12 06:54:37,290 - INFO - Starting training from epoch 1/100
+2025-04-12 06:56:47,617 - INFO - Epoch [1/100], Step [100/411], Loss: 35.930948
+2025-04-12 06:58:51,850 - INFO - Epoch [1/100], Step [200/411], Loss: 22.512206
+2025-04-12 07:00:57,017 - INFO - Epoch [1/100], Step [300/411], Loss: 15.428860
+2025-04-12 07:03:02,816 - INFO - Epoch [1/100], Step [400/411], Loss: 11.737228
+2025-04-12 07:03:17,091 - INFO - End of Epoch [1/100] - Training Loss: 11.454494
+2025-04-12 07:04:26,223 - INFO - End of Epoch [1/100] - Validation Loss: 0.603615
+2025-04-12 07:04:26,223 - INFO - Epoch 1 duration: 588.93 seconds
+2025-04-12 07:04:26,773 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.603615)
+2025-04-12 07:06:34,117 - INFO - Epoch [2/100], Step [100/411], Loss: 0.563750
+2025-04-12 07:08:38,199 - INFO - Epoch [2/100], Step [200/411], Loss: 0.541370
+2025-04-12 07:10:45,225 - INFO - Epoch [2/100], Step [300/411], Loss: 0.524807
+2025-04-12 07:12:54,226 - INFO - Epoch [2/100], Step [400/411], Loss: 0.510480
+2025-04-12 07:13:08,224 - INFO - End of Epoch [2/100] - Training Loss: 0.509113
+2025-04-12 07:14:08,585 - INFO - End of Epoch [2/100] - Validation Loss: 0.469351
+2025-04-12 07:14:08,586 - INFO - Epoch 2 duration: 581.81 seconds
+2025-04-12 07:14:09,147 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.469351)
+2025-04-12 07:16:18,723 - INFO - Epoch [3/100], Step [100/411], Loss: 0.448630
+2025-04-12 07:18:27,495 - INFO - Epoch [3/100], Step [200/411], Loss: 0.448163
+2025-04-12 07:20:33,529 - INFO - Epoch [3/100], Step [300/411], Loss: 0.442616
+2025-04-12 07:22:41,845 - INFO - Epoch [3/100], Step [400/411], Loss: 0.437931
+2025-04-12 07:22:56,193 - INFO - End of Epoch [3/100] - Training Loss: 0.437540
+2025-04-12 07:23:55,971 - INFO - End of Epoch [3/100] - Validation Loss: 0.429013
+2025-04-12 07:23:55,971 - INFO - Epoch 3 duration: 586.82 seconds
+2025-04-12 07:23:56,522 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.429013)
+2025-04-12 07:26:07,291 - INFO - Epoch [4/100], Step [100/411], Loss: 0.418707
+2025-04-12 07:28:13,644 - INFO - Epoch [4/100], Step [200/411], Loss: 0.412134
+2025-04-12 07:30:23,136 - INFO - Epoch [4/100], Step [300/411], Loss: 0.408393
+2025-04-12 07:32:29,394 - INFO - Epoch [4/100], Step [400/411], Loss: 0.407012
+2025-04-12 07:32:43,490 - INFO - End of Epoch [4/100] - Training Loss: 0.406993
+2025-04-12 07:33:44,026 - INFO - End of Epoch [4/100] - Validation Loss: 0.404125
+2025-04-12 07:33:44,027 - INFO - Epoch 4 duration: 587.50 seconds
+2025-04-12 07:33:44,679 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.404125)
+2025-04-12 07:35:53,062 - INFO - Epoch [5/100], Step [100/411], Loss: 0.391448
+2025-04-12 07:37:57,960 - INFO - Epoch [5/100], Step [200/411], Loss: 0.390883
+2025-04-12 07:40:05,289 - INFO - Epoch [5/100], Step [300/411], Loss: 0.389721
+2025-04-12 07:42:13,956 - INFO - Epoch [5/100], Step [400/411], Loss: 0.389045
+2025-04-12 07:42:28,009 - INFO - End of Epoch [5/100] - Training Loss: 0.388910
+2025-04-12 07:43:28,296 - INFO - End of Epoch [5/100] - Validation Loss: 0.397923
+2025-04-12 07:43:28,297 - INFO - Epoch 5 duration: 583.62 seconds
+2025-04-12 07:43:28,875 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.397923)
+2025-04-12 07:45:37,153 - INFO - Epoch [6/100], Step [100/411], Loss: 0.379120
+2025-04-12 07:47:42,026 - INFO - Epoch [6/100], Step [200/411], Loss: 0.378342
+2025-04-12 07:49:46,173 - INFO - Epoch [6/100], Step [300/411], Loss: 0.377429
+2025-04-12 07:51:52,793 - INFO - Epoch [6/100], Step [400/411], Loss: 0.376980
+2025-04-12 07:52:04,035 - INFO - End of Epoch [6/100] - Training Loss: 0.377049
+2025-04-12 07:53:03,691 - INFO - End of Epoch [6/100] - Validation Loss: 0.389303
+2025-04-12 07:53:03,691 - INFO - Epoch 6 duration: 574.82 seconds
+2025-04-12 07:53:04,238 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.389303)
+2025-04-12 07:55:11,036 - INFO - Epoch [7/100], Step [100/411], Loss: 0.367489
+2025-04-12 07:57:13,896 - INFO - Epoch [7/100], Step [200/411], Loss: 0.368086
+2025-04-12 07:59:20,429 - INFO - Epoch [7/100], Step [300/411], Loss: 0.367550
+2025-04-12 08:01:29,950 - INFO - Epoch [7/100], Step [400/411], Loss: 0.367307
+2025-04-12 08:01:43,928 - INFO - End of Epoch [7/100] - Training Loss: 0.367234
+2025-04-12 08:02:43,920 - INFO - End of Epoch [7/100] - Validation Loss: 0.382330
+2025-04-12 08:02:43,920 - INFO - Epoch 7 duration: 579.68 seconds
+2025-04-12 08:02:44,483 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.382330)
+2025-04-12 08:04:52,366 - INFO - Epoch [8/100], Step [100/411], Loss: 0.359732
+2025-04-12 08:06:56,980 - INFO - Epoch [8/100], Step [200/411], Loss: 0.360025
+2025-04-12 08:09:01,913 - INFO - Epoch [8/100], Step [300/411], Loss: 0.360812
+2025-04-12 08:11:07,304 - INFO - Epoch [8/100], Step [400/411], Loss: 0.360974
+2025-04-12 08:11:20,275 - INFO - End of Epoch [8/100] - Training Loss: 0.361065
+2025-04-12 08:12:20,415 - INFO - End of Epoch [8/100] - Validation Loss: 0.376088
+2025-04-12 08:12:20,415 - INFO - Epoch 8 duration: 575.93 seconds
+2025-04-12 08:12:20,960 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.376088)
+2025-04-12 08:14:27,276 - INFO - Epoch [9/100], Step [100/411], Loss: 0.352576
+2025-04-12 08:16:33,480 - INFO - Epoch [9/100], Step [200/411], Loss: 0.354052
+2025-04-12 08:18:39,333 - INFO - Epoch [9/100], Step [300/411], Loss: 0.354552
+2025-04-12 08:20:42,695 - INFO - Epoch [9/100], Step [400/411], Loss: 0.354461
+2025-04-12 08:20:56,601 - INFO - End of Epoch [9/100] - Training Loss: 0.354484
+2025-04-12 08:21:57,028 - INFO - End of Epoch [9/100] - Validation Loss: 0.371790
+2025-04-12 08:21:57,029 - INFO - Epoch 9 duration: 576.07 seconds
+2025-04-12 08:21:57,582 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.371790)
+2025-04-12 08:24:05,079 - INFO - Epoch [10/100], Step [100/411], Loss: 0.348474
+2025-04-12 08:26:10,300 - INFO - Epoch [10/100], Step [200/411], Loss: 0.349636
+2025-04-12 08:28:21,774 - INFO - Epoch [10/100], Step [300/411], Loss: 0.349273
+2025-04-12 08:30:30,815 - INFO - Epoch [10/100], Step [400/411], Loss: 0.349633
+2025-04-12 08:30:45,078 - INFO - End of Epoch [10/100] - Training Loss: 0.349675
+2025-04-12 08:31:45,465 - INFO - End of Epoch [10/100] - Validation Loss: 0.370488
+2025-04-12 08:31:45,465 - INFO - Epoch 10 duration: 587.88 seconds
+2025-04-12 08:31:46,013 - INFO - Checkpoint saved to training_output/checkpoints/checkpoint_epoch_10.pth
+2025-04-12 08:31:46,552 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.370488)
+2025-04-12 08:33:53,841 - INFO - Epoch [11/100], Step [100/411], Loss: 0.343209
+2025-04-12 08:35:57,994 - INFO - Epoch [11/100], Step [200/411], Loss: 0.343330
+2025-04-12 08:38:03,238 - INFO - Epoch [11/100], Step [300/411], Loss: 0.343545
+2025-04-12 08:40:07,411 - INFO - Epoch [11/100], Step [400/411], Loss: 0.343150
+2025-04-12 08:40:20,992 - INFO - End of Epoch [11/100] - Training Loss: 0.343253
+2025-04-12 08:41:21,581 - INFO - End of Epoch [11/100] - Validation Loss: 0.369104
+2025-04-12 08:41:21,581 - INFO - Epoch 11 duration: 575.03 seconds
+2025-04-12 08:41:22,140 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.369104)
+2025-04-12 08:43:29,841 - INFO - Epoch [12/100], Step [100/411], Loss: 0.334912
+2025-04-12 08:45:36,419 - INFO - Epoch [12/100], Step [200/411], Loss: 0.337056
+2025-04-12 08:47:43,934 - INFO - Epoch [12/100], Step [300/411], Loss: 0.337843
+2025-04-12 08:49:48,603 - INFO - Epoch [12/100], Step [400/411], Loss: 0.339077
+2025-04-12 08:50:02,633 - INFO - End of Epoch [12/100] - Training Loss: 0.339066
+2025-04-12 08:51:03,299 - INFO - End of Epoch [12/100] - Validation Loss: 0.369659
+2025-04-12 08:51:03,300 - INFO - Epoch 12 duration: 581.16 seconds
+2025-04-12 08:53:10,937 - INFO - Epoch [13/100], Step [100/411], Loss: 0.332451
+2025-04-12 08:55:19,509 - INFO - Epoch [13/100], Step [200/411], Loss: 0.333775
+2025-04-12 08:57:26,598 - INFO - Epoch [13/100], Step [300/411], Loss: 0.333597
+2025-04-12 08:59:35,168 - INFO - Epoch [13/100], Step [400/411], Loss: 0.334338
+2025-04-12 08:59:49,354 - INFO - End of Epoch [13/100] - Training Loss: 0.334506
+2025-04-12 09:00:49,730 - INFO - End of Epoch [13/100] - Validation Loss: 0.364309
+2025-04-12 09:00:49,731 - INFO - Epoch 13 duration: 586.43 seconds
+2025-04-12 09:00:50,408 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.364309)
+2025-04-12 09:02:59,786 - INFO - Epoch [14/100], Step [100/411], Loss: 0.326327
+2025-04-12 09:05:06,879 - INFO - Epoch [14/100], Step [200/411], Loss: 0.327040
+2025-04-12 09:07:14,456 - INFO - Epoch [14/100], Step [300/411], Loss: 0.328938
+2025-04-12 09:09:22,361 - INFO - Epoch [14/100], Step [400/411], Loss: 0.329597
+2025-04-12 09:09:36,942 - INFO - End of Epoch [14/100] - Training Loss: 0.329561
+2025-04-12 09:10:37,165 - INFO - End of Epoch [14/100] - Validation Loss: 0.362581
+2025-04-12 09:10:37,165 - INFO - Epoch 14 duration: 586.76 seconds
+2025-04-12 09:10:37,709 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.362581)
+2025-04-12 09:12:46,086 - INFO - Epoch [15/100], Step [100/411], Loss: 0.321084
+2025-04-12 09:14:52,964 - INFO - Epoch [15/100], Step [200/411], Loss: 0.322283
+2025-04-12 09:17:03,174 - INFO - Epoch [15/100], Step [300/411], Loss: 0.323911
+2025-04-12 09:19:11,314 - INFO - Epoch [15/100], Step [400/411], Loss: 0.324987
+2025-04-12 09:19:25,309 - INFO - End of Epoch [15/100] - Training Loss: 0.324989
+2025-04-12 09:20:25,522 - INFO - End of Epoch [15/100] - Validation Loss: 0.382170
+2025-04-12 09:20:25,523 - INFO - Epoch 15 duration: 587.81 seconds
+2025-04-12 09:22:34,577 - INFO - Epoch [16/100], Step [100/411], Loss: 0.315156
+2025-04-12 09:24:41,992 - INFO - Epoch [16/100], Step [200/411], Loss: 0.317899
+2025-04-12 09:26:47,914 - INFO - Epoch [16/100], Step [300/411], Loss: 0.318743
+2025-04-12 09:28:53,908 - INFO - Epoch [16/100], Step [400/411], Loss: 0.319596
+2025-04-12 09:29:05,037 - INFO - End of Epoch [16/100] - Training Loss: 0.319754
+2025-04-12 09:30:05,542 - INFO - End of Epoch [16/100] - Validation Loss: 0.370791
+2025-04-12 09:30:05,542 - INFO - Epoch 16 duration: 580.02 seconds
+2025-04-12 09:32:12,070 - INFO - Epoch [17/100], Step [100/411], Loss: 0.314231
+2025-04-12 09:34:18,875 - INFO - Epoch [17/100], Step [200/411], Loss: 0.314096
+2025-04-12 09:36:25,215 - INFO - Epoch [17/100], Step [300/411], Loss: 0.315494
+2025-04-12 09:38:30,395 - INFO - Epoch [17/100], Step [400/411], Loss: 0.317206
+2025-04-12 09:38:44,845 - INFO - End of Epoch [17/100] - Training Loss: 0.317334
+2025-04-12 09:39:46,452 - INFO - End of Epoch [17/100] - Validation Loss: 0.361575
+2025-04-12 09:39:46,452 - INFO - Epoch 17 duration: 580.91 seconds
+2025-04-12 09:39:47,013 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.361575)
+2025-04-12 09:41:56,355 - INFO - Epoch [18/100], Step [100/411], Loss: 0.309338
+2025-04-12 09:44:05,804 - INFO - Epoch [18/100], Step [200/411], Loss: 0.309937
+2025-04-12 09:46:12,071 - INFO - Epoch [18/100], Step [300/411], Loss: 0.310387
+2025-04-12 09:48:19,441 - INFO - Epoch [18/100], Step [400/411], Loss: 0.311621
+2025-04-12 09:48:30,695 - INFO - End of Epoch [18/100] - Training Loss: 0.311758
+2025-04-12 09:49:31,113 - INFO - End of Epoch [18/100] - Validation Loss: 0.364048
+2025-04-12 09:49:31,113 - INFO - Epoch 18 duration: 584.10 seconds
+2025-04-12 09:51:38,764 - INFO - Epoch [19/100], Step [100/411], Loss: 0.302850
+2025-04-12 09:53:45,448 - INFO - Epoch [19/100], Step [200/411], Loss: 0.304765
+2025-04-12 09:55:52,091 - INFO - Epoch [19/100], Step [300/411], Loss: 0.305928
+2025-04-12 09:58:00,837 - INFO - Epoch [19/100], Step [400/411], Loss: 0.307207
+2025-04-12 09:58:15,065 - INFO - End of Epoch [19/100] - Training Loss: 0.307483
+2025-04-12 09:59:16,123 - INFO - End of Epoch [19/100] - Validation Loss: 0.367242
+2025-04-12 09:59:16,123 - INFO - Epoch 19 duration: 585.01 seconds
+2025-04-12 10:01:25,650 - INFO - Epoch [20/100], Step [100/411], Loss: 0.298535
+2025-04-12 10:03:35,052 - INFO - Epoch [20/100], Step [200/411], Loss: 0.300363
+2025-04-12 10:05:45,211 - INFO - Epoch [20/100], Step [300/411], Loss: 0.301604
+2025-04-12 10:07:52,390 - INFO - Epoch [20/100], Step [400/411], Loss: 0.302986
+2025-04-12 10:08:06,430 - INFO - End of Epoch [20/100] - Training Loss: 0.303045
+2025-04-12 10:09:06,374 - INFO - End of Epoch [20/100] - Validation Loss: 0.360409
+2025-04-12 10:09:06,374 - INFO - Epoch 20 duration: 590.25 seconds
+2025-04-12 10:09:06,917 - INFO - Checkpoint saved to training_output/checkpoints/checkpoint_epoch_20.pth
+2025-04-12 10:09:07,461 - INFO - New best model saved to training_output/best_model.pth (Val Loss: 0.360409)
+2025-04-12 10:11:13,768 - INFO - Epoch [21/100], Step [100/411], Loss: 0.294966
+2025-04-12 10:13:17,047 - INFO - Epoch [21/100], Step [200/411], Loss: 0.297500
+2025-04-12 10:15:21,374 - INFO - Epoch [21/100], Step [300/411], Loss: 0.298695
+2025-04-12 10:17:30,141 - INFO - Epoch [21/100], Step [400/411], Loss: 0.299680
+2025-04-12 10:17:44,397 - INFO - End of Epoch [21/100] - Training Loss: 0.299822
+2025-04-12 10:18:44,696 - INFO - End of Epoch [21/100] - Validation Loss: 0.361837
+2025-04-12 10:18:44,696 - INFO - Epoch 21 duration: 577.24 seconds
+2025-04-12 10:20:51,928 - INFO - Epoch [22/100], Step [100/411], Loss: 0.292850
+2025-04-12 10:22:59,820 - INFO - Epoch [22/100], Step [200/411], Loss: 0.293545
+2025-04-12 10:25:06,490 - INFO - Epoch [22/100], Step [300/411], Loss: 0.294979
+2025-04-12 10:27:14,780 - INFO - Epoch [22/100], Step [400/411], Loss: 0.295892
+2025-04-12 10:27:25,622 - INFO - End of Epoch [22/100] - Training Loss: 0.295996
+2025-04-12 10:28:25,508 - INFO - End of Epoch [22/100] - Validation Loss: 0.363250
+2025-04-12 10:28:25,508 - INFO - Epoch 22 duration: 580.81 seconds
+2025-04-12 10:30:34,303 - INFO - Epoch [23/100], Step [100/411], Loss: 0.287507
+2025-04-12 10:32:42,128 - INFO - Epoch [23/100], Step [200/411], Loss: 0.289994
+2025-04-12 10:34:49,830 - INFO - Epoch [23/100], Step [300/411], Loss: 0.291277
+2025-04-12 10:36:58,938 - INFO - Epoch [23/100], Step [400/411], Loss: 0.292610
+2025-04-12 10:37:09,893 - INFO - End of Epoch [23/100] - Training Loss: 0.292715
+2025-04-12 10:38:10,141 - INFO - End of Epoch [23/100] - Validation Loss: 0.363565
+2025-04-12 10:38:10,141 - INFO - Epoch 23 duration: 584.63 seconds
+2025-04-12 10:40:19,109 - INFO - Epoch [24/100], Step [100/411], Loss: 0.282787
+2025-04-12 10:42:26,447 - INFO - Epoch [24/100], Step [200/411], Loss: 0.285418
+2025-04-12 10:44:34,284 - INFO - Epoch [24/100], Step [300/411], Loss: 0.287701
+2025-04-12 10:46:43,052 - INFO - Epoch [24/100], Step [400/411], Loss: 0.288813
+2025-04-12 10:46:54,139 - INFO - End of Epoch [24/100] - Training Loss: 0.288815
+2025-04-12 10:47:54,401 - INFO - End of Epoch [24/100] - Validation Loss: 0.362127
+2025-04-12 10:47:54,402 - INFO - Epoch 24 duration: 584.26 seconds
+2025-04-12 10:50:02,076 - INFO - Epoch [25/100], Step [100/411], Loss: 0.282836
+2025-04-12 10:52:14,960 - INFO - Epoch [25/100], Step [200/411], Loss: 0.283721
+2025-04-12 10:54:25,159 - INFO - Epoch [25/100], Step [300/411], Loss: 0.284411
+2025-04-12 10:56:32,240 - INFO - Epoch [25/100], Step [400/411], Loss: 0.285147
+2025-04-12 10:56:43,205 - INFO - End of Epoch [25/100] - Training Loss: 0.285290
+2025-04-12 10:57:43,558 - INFO - End of Epoch [25/100] - Validation Loss: 0.362611
+2025-04-12 10:57:43,558 - INFO - Epoch 25 duration: 589.16 seconds
+2025-04-12 10:59:56,583 - INFO - Epoch [26/100], Step [100/411], Loss: 0.278438
+2025-04-12 11:02:04,178 - INFO - Epoch [26/100], Step [200/411], Loss: 0.279442
+2025-04-12 11:04:13,215 - INFO - Epoch [26/100], Step [300/411], Loss: 0.280231
+2025-04-12 11:06:22,012 - INFO - Epoch [26/100], Step [400/411], Loss: 0.281504
+2025-04-12 11:06:35,892 - INFO - End of Epoch [26/100] - Training Loss: 0.281567
+2025-04-12 11:07:36,482 - INFO - End of Epoch [26/100] - Validation Loss: 0.365011
+2025-04-12 11:07:36,482 - INFO - Epoch 26 duration: 592.92 seconds
+2025-04-12 11:09:44,771 - INFO - Epoch [27/100], Step [100/411], Loss: 0.275368
+2025-04-12 11:11:50,330 - INFO - Epoch [27/100], Step [200/411], Loss: 0.276929
+2025-04-12 11:13:55,751 - INFO - Epoch [27/100], Step [300/411], Loss: 0.278447
+2025-04-12 11:16:03,244 - INFO - Epoch [27/100], Step [400/411], Loss: 0.279249
+2025-04-12 11:16:17,412 - INFO - End of Epoch [27/100] - Training Loss: 0.279470
+2025-04-12 11:17:17,857 - INFO - End of Epoch [27/100] - Validation Loss: 0.367536
+2025-04-12 11:17:17,857 - INFO - Epoch 27 duration: 581.37 seconds
+2025-04-12 11:19:25,017 - INFO - Epoch [28/100], Step [100/411], Loss: 0.271661
+2025-04-12 11:21:30,719 - INFO - Epoch [28/100], Step [200/411], Loss: 0.273477
+2025-04-12 11:23:35,917 - INFO - Epoch [28/100], Step [300/411], Loss: 0.274759
+2025-04-12 11:25:42,071 - INFO - Epoch [28/100], Step [400/411], Loss: 0.275892
+2025-04-12 11:25:53,174 - INFO - End of Epoch [28/100] - Training Loss: 0.275842
+2025-04-12 11:26:53,367 - INFO - End of Epoch [28/100] - Validation Loss: 0.365896
+2025-04-12 11:26:53,368 - INFO - Epoch 28 duration: 575.51 seconds
+2025-04-12 11:28:59,980 - INFO - Epoch [29/100], Step [100/411], Loss: 0.268575
+2025-04-12 11:31:04,490 - INFO - Epoch [29/100], Step [200/411], Loss: 0.270422
+2025-04-12 11:33:09,746 - INFO - Epoch [29/100], Step [300/411], Loss: 0.272020
+2025-04-12 11:35:15,650 - INFO - Epoch [29/100], Step [400/411], Loss: 0.273705
+2025-04-12 11:35:29,929 - INFO - End of Epoch [29/100] - Training Loss: 0.273718
+2025-04-12 11:36:30,644 - INFO - End of Epoch [29/100] - Validation Loss: 0.365367
+2025-04-12 11:36:30,644 - INFO - Epoch 29 duration: 577.28 seconds
+2025-04-12 11:38:40,015 - INFO - Epoch [30/100], Step [100/411], Loss: 0.267952
+2025-04-12 11:40:50,613 - INFO - Epoch [30/100], Step [200/411], Loss: 0.268932
+2025-04-12 11:42:55,035 - INFO - Epoch [30/100], Step [300/411], Loss: 0.269570
+2025-04-12 11:45:05,024 - INFO - Epoch [30/100], Step [400/411], Loss: 0.270587
+2025-04-12 11:45:15,988 - INFO - End of Epoch [30/100] - Training Loss: 0.270564
+2025-04-12 11:46:16,129 - INFO - End of Epoch [30/100] - Validation Loss: 0.369244
+2025-04-12 11:46:16,129 - INFO - Epoch 30 duration: 585.48 seconds
+2025-04-12 11:46:16,695 - INFO - Checkpoint saved to training_output/checkpoints/checkpoint_epoch_30.pth
+2025-04-12 11:48:23,427 - INFO - Epoch [31/100], Step [100/411], Loss: 0.263258
+2025-04-12 11:50:28,765 - INFO - Epoch [31/100], Step [200/411], Loss: 0.264604
+2025-04-12 11:52:43,380 - INFO - Epoch [31/100], Step [300/411], Loss: 0.266578
+2025-04-12 11:54:48,260 - INFO - Epoch [31/100], Step [400/411], Loss: 0.267827
+2025-04-12 11:54:59,275 - INFO - End of Epoch [31/100] - Training Loss: 0.267919
+2025-04-12 11:55:59,311 - INFO - End of Epoch [31/100] - Validation Loss: 0.364476
+2025-04-12 11:55:59,312 - INFO - Epoch 31 duration: 582.62 seconds
+2025-04-12 11:58:07,806 - INFO - Epoch [32/100], Step [100/411], Loss: 0.262625
+2025-04-12 12:00:11,793 - INFO - Epoch [32/100], Step [200/411], Loss: 0.263181
+2025-04-12 12:02:16,498 - INFO - Epoch [32/100], Step [300/411], Loss: 0.264289
+2025-04-12 12:04:25,951 - INFO - Epoch [32/100], Step [400/411], Loss: 0.265190
+2025-04-12 12:04:40,333 - INFO - End of Epoch [32/100] - Training Loss: 0.265368
+2025-04-12 12:05:39,906 - INFO - End of Epoch [32/100] - Validation Loss: 0.366397
+2025-04-12 12:05:39,907 - INFO - Epoch 32 duration: 580.60 seconds
+2025-04-12 12:07:47,381 - INFO - Epoch [33/100], Step [100/411], Loss: 0.259277
+2025-04-12 12:09:54,360 - INFO - Epoch [33/100], Step [200/411], Loss: 0.260620
+2025-04-12 12:12:02,151 - INFO - Epoch [33/100], Step [300/411], Loss: 0.261983
+2025-04-12 12:14:07,425 - INFO - Epoch [33/100], Step [400/411], Loss: 0.262472
+2025-04-12 12:14:18,603 - INFO - End of Epoch [33/100] - Training Loss: 0.262603
+2025-04-12 12:15:18,797 - INFO - End of Epoch [33/100] - Validation Loss: 0.366282
+2025-04-12 12:15:18,797 - INFO - Epoch 33 duration: 578.89 seconds
+2025-04-12 12:17:25,320 - INFO - Epoch [34/100], Step [100/411], Loss: 0.256293
+2025-04-12 12:19:32,805 - INFO - Epoch [34/100], Step [200/411], Loss: 0.257537
+2025-04-12 12:21:37,656 - INFO - Epoch [34/100], Step [300/411], Loss: 0.258984
+2025-04-12 12:23:41,710 - INFO - Epoch [34/100], Step [400/411], Loss: 0.259935
+2025-04-12 12:23:52,640 - INFO - End of Epoch [34/100] - Training Loss: 0.260044
+2025-04-12 12:24:52,995 - INFO - End of Epoch [34/100] - Validation Loss: 0.368536
+2025-04-12 12:24:52,995 - INFO - Epoch 34 duration: 574.20 seconds
+2025-04-12 12:26:58,978 - INFO - Epoch [35/100], Step [100/411], Loss: 0.255291
+2025-04-12 12:29:03,050 - INFO - Epoch [35/100], Step [200/411], Loss: 0.255557
+2025-04-12 12:31:06,671 - INFO - Epoch [35/100], Step [300/411], Loss: 0.256228
+2025-04-12 12:33:10,029 - INFO - Epoch [35/100], Step [400/411], Loss: 0.257484
+2025-04-12 12:33:23,113 - INFO - End of Epoch [35/100] - Training Loss: 0.257611
+2025-04-12 12:34:22,527 - INFO - End of Epoch [35/100] - Validation Loss: 0.367287
+2025-04-12 12:34:22,527 - INFO - Epoch 35 duration: 569.53 seconds
+2025-04-12 12:36:28,318 - INFO - Epoch [36/100], Step [100/411], Loss: 0.253199
+2025-04-12 12:38:31,144 - INFO - Epoch [36/100], Step [200/411], Loss: 0.253971
+2025-04-12 12:40:34,348 - INFO - Epoch [36/100], Step [300/411], Loss: 0.255041
+2025-04-12 12:42:36,969 - INFO - Epoch [36/100], Step [400/411], Loss: 0.256002
+2025-04-12 12:42:50,980 - INFO - End of Epoch [36/100] - Training Loss: 0.256075
+2025-04-12 12:43:50,602 - INFO - End of Epoch [36/100] - Validation Loss: 0.367355
+2025-04-12 12:43:50,602 - INFO - Epoch 36 duration: 568.07 seconds
+2025-04-12 12:45:57,668 - INFO - Epoch [37/100], Step [100/411], Loss: 0.248182
+2025-04-12 12:48:03,448 - INFO - Epoch [37/100], Step [200/411], Loss: 0.249413
+2025-04-12 12:50:09,555 - INFO - Epoch [37/100], Step [300/411], Loss: 0.250857
+2025-04-12 12:52:18,296 - INFO - Epoch [37/100], Step [400/411], Loss: 0.251595
+2025-04-12 12:52:29,504 - INFO - End of Epoch [37/100] - Training Loss: 0.251712
+2025-04-12 12:53:29,561 - INFO - End of Epoch [37/100] - Validation Loss: 0.367343
+2025-04-12 12:53:29,561 - INFO - Epoch 37 duration: 578.96 seconds
+2025-04-12 12:55:36,520 - INFO - Epoch [38/100], Step [100/411], Loss: 0.245251
+2025-04-12 12:57:41,323 - INFO - Epoch [38/100], Step [200/411], Loss: 0.245919
+2025-04-12 12:59:47,013 - INFO - Epoch [38/100], Step [300/411], Loss: 0.247500
+2025-04-12 13:01:52,111 - INFO - Epoch [38/100], Step [400/411], Loss: 0.248897
+2025-04-12 13:02:06,142 - INFO - End of Epoch [38/100] - Training Loss: 0.249160
+2025-04-12 13:03:06,561 - INFO - End of Epoch [38/100] - Validation Loss: 0.370458
+2025-04-12 13:03:06,561 - INFO - Epoch 38 duration: 577.00 seconds
+2025-04-12 13:05:12,734 - INFO - Epoch [39/100], Step [100/411], Loss: 0.243850
+2025-04-12 13:07:17,227 - INFO - Epoch [39/100], Step [200/411], Loss: 0.245005
+2025-04-12 13:09:22,353 - INFO - Epoch [39/100], Step [300/411], Loss: 0.246095
+2025-04-12 13:11:26,516 - INFO - Epoch [39/100], Step [400/411], Loss: 0.247504
+2025-04-12 13:11:40,544 - INFO - End of Epoch [39/100] - Training Loss: 0.247637
+2025-04-12 13:12:40,959 - INFO - End of Epoch [39/100] - Validation Loss: 0.368659
+2025-04-12 13:12:40,959 - INFO - Epoch 39 duration: 574.40 seconds
+2025-04-12 13:14:46,915 - INFO - Epoch [40/100], Step [100/411], Loss: 0.242937
+2025-04-12 13:16:51,800 - INFO - Epoch [40/100], Step [200/411], Loss: 0.243484
+2025-04-12 13:18:56,378 - INFO - Epoch [40/100], Step [300/411], Loss: 0.244085
+2025-04-12 13:21:00,405 - INFO - Epoch [40/100], Step [400/411], Loss: 0.244778
+2025-04-12 13:21:12,286 - INFO - End of Epoch [40/100] - Training Loss: 0.244825
+2025-04-12 13:22:12,111 - INFO - End of Epoch [40/100] - Validation Loss: 0.374590
+2025-04-12 13:22:12,111 - INFO - Epoch 40 duration: 571.15 seconds
+2025-04-12 13:22:12,674 - INFO - Checkpoint saved to training_output/checkpoints/checkpoint_epoch_40.pth
+2025-04-12 13:24:19,328 - INFO - Epoch [41/100], Step [100/411], Loss: 0.237067
+2025-04-12 13:26:25,116 - INFO - Epoch [41/100], Step [200/411], Loss: 0.238497
+2025-04-12 13:28:29,317 - INFO - Epoch [41/100], Step [300/411], Loss: 0.239895
+2025-04-12 13:30:36,285 - INFO - Epoch [41/100], Step [400/411], Loss: 0.241158
+2025-04-12 13:30:50,372 - INFO - End of Epoch [41/100] - Training Loss: 0.241346
+2025-04-12 13:31:50,807 - INFO - End of Epoch [41/100] - Validation Loss: 0.374632
+2025-04-12 13:31:50,807 - INFO - Epoch 41 duration: 578.13 seconds
+2025-04-12 13:33:57,419 - INFO - Epoch [42/100], Step [100/411], Loss: 0.235418
+2025-04-12 13:36:01,072 - INFO - Epoch [42/100], Step [200/411], Loss: 0.237179
+2025-04-12 13:38:06,095 - INFO - Epoch [42/100], Step [300/411], Loss: 0.238245
+2025-04-12 13:40:11,008 - INFO - Epoch [42/100], Step [400/411], Loss: 0.238795
+2025-04-12 13:40:25,075 - INFO - End of Epoch [42/100] - Training Loss: 0.238837
+2025-04-12 13:41:25,758 - INFO - End of Epoch [42/100] - Validation Loss: 0.373689
+2025-04-12 13:41:25,758 - INFO - Epoch 42 duration: 574.95 seconds
+2025-04-12 13:43:33,933 - INFO - Epoch [43/100], Step [100/411], Loss: 0.231227
+2025-04-12 13:45:41,026 - INFO - Epoch [43/100], Step [200/411], Loss: 0.232123
+2025-04-12 13:47:46,918 - INFO - Epoch [43/100], Step [300/411], Loss: 0.233466
+2025-04-12 13:49:51,572 - INFO - Epoch [43/100], Step [400/411], Loss: 0.235265
+2025-04-12 13:50:03,508 - INFO - End of Epoch [43/100] - Training Loss: 0.235383
+2025-04-12 13:51:04,020 - INFO - End of Epoch [43/100] - Validation Loss: 0.373836
+2025-04-12 13:51:04,020 - INFO - Epoch 43 duration: 578.26 seconds
+2025-04-12 13:53:13,761 - INFO - Epoch [44/100], Step [100/411], Loss: 0.228859
+2025-04-12 13:55:21,724 - INFO - Epoch [44/100], Step [200/411], Loss: 0.229556
+2025-04-12 13:57:28,659 - INFO - Epoch [44/100], Step [300/411], Loss: 0.230755
+2025-04-12 13:59:35,879 - INFO - Epoch [44/100], Step [400/411], Loss: 0.232366
+2025-04-12 13:59:50,038 - INFO - End of Epoch [44/100] - Training Loss: 0.232479
+2025-04-12 14:00:50,061 - INFO - End of Epoch [44/100] - Validation Loss: 0.371472
+2025-04-12 14:00:50,061 - INFO - Epoch 44 duration: 586.04 seconds
+2025-04-12 14:02:57,940 - INFO - Epoch [45/100], Step [100/411], Loss: 0.225242
+2025-04-12 14:05:01,252 - INFO - Epoch [45/100], Step [200/411], Loss: 0.226380
+2025-04-12 14:07:06,229 - INFO - Epoch [45/100], Step [300/411], Loss: 0.229068
+2025-04-12 14:09:11,545 - INFO - Epoch [45/100], Step [400/411], Loss: 0.230445
+2025-04-12 14:09:25,771 - INFO - End of Epoch [45/100] - Training Loss: 0.230498
+2025-04-12 14:10:25,818 - INFO - End of Epoch [45/100] - Validation Loss: 0.375063
+2025-04-12 14:10:25,819 - INFO - Epoch 45 duration: 575.76 seconds
+2025-04-12 14:12:32,149 - INFO - Epoch [46/100], Step [100/411], Loss: 0.223374
+2025-04-12 14:14:36,325 - INFO - Epoch [46/100], Step [200/411], Loss: 0.224009
+2025-04-12 14:16:42,457 - INFO - Epoch [46/100], Step [300/411], Loss: 0.225002
+2025-04-12 14:18:47,546 - INFO - Epoch [46/100], Step [400/411], Loss: 0.226612
+2025-04-12 14:19:00,127 - INFO - End of Epoch [46/100] - Training Loss: 0.226727
+2025-04-12 14:20:00,687 - INFO - End of Epoch [46/100] - Validation Loss: 0.376079
+2025-04-12 14:20:00,687 - INFO - Epoch 46 duration: 574.87 seconds
+2025-04-12 14:22:08,281 - INFO - Epoch [47/100], Step [100/411], Loss: 0.219713
+2025-04-12 14:24:14,034 - INFO - Epoch [47/100], Step [200/411], Loss: 0.220789
+2025-04-12 14:26:18,794 - INFO - Epoch [47/100], Step [300/411], Loss: 0.221860
+2025-04-12 14:28:25,780 - INFO - Epoch [47/100], Step [400/411], Loss: 0.223206
+2025-04-12 14:28:37,068 - INFO - End of Epoch [47/100] - Training Loss: 0.223351
+2025-04-12 14:29:37,224 - INFO - End of Epoch [47/100] - Validation Loss: 0.379203
+2025-04-12 14:29:37,225 - INFO - Epoch 47 duration: 576.54 seconds
+2025-04-12 14:31:45,389 - INFO - Epoch [48/100], Step [100/411], Loss: 0.215973
+2025-04-12 14:33:52,731 - INFO - Epoch [48/100], Step [200/411], Loss: 0.216648
+2025-04-12 14:35:58,941 - INFO - Epoch [48/100], Step [300/411], Loss: 0.218118
+2025-04-12 14:38:04,196 - INFO - Epoch [48/100], Step [400/411], Loss: 0.219190
+2025-04-12 14:38:18,137 - INFO - End of Epoch [48/100] - Training Loss: 0.219403
+2025-04-12 14:39:18,833 - INFO - End of Epoch [48/100] - Validation Loss: 0.384559
+2025-04-12 14:39:18,833 - INFO - Epoch 48 duration: 581.61 seconds
+2025-04-12 14:41:26,851 - INFO - Epoch [49/100], Step [100/411], Loss: 0.213877
+2025-04-12 14:43:32,365 - INFO - Epoch [49/100], Step [200/411], Loss: 0.214499
+2025-04-12 14:45:38,630 - INFO - Epoch [49/100], Step [300/411], Loss: 0.215719
+2025-04-12 14:47:44,201 - INFO - Epoch [49/100], Step [400/411], Loss: 0.217291
+2025-04-12 14:47:55,346 - INFO - End of Epoch [49/100] - Training Loss: 0.217376
+2025-04-12 14:48:55,028 - INFO - End of Epoch [49/100] - Validation Loss: 0.383118
+2025-04-12 14:48:55,029 - INFO - Epoch 49 duration: 576.20 seconds
+2025-04-12 14:51:02,851 - INFO - Epoch [50/100], Step [100/411], Loss: 0.210429
+2025-04-12 14:53:09,300 - INFO - Epoch [50/100], Step [200/411], Loss: 0.211067
+2025-04-12 14:55:18,364 - INFO - Epoch [50/100], Step [300/411], Loss: 0.212810
+2025-04-12 14:57:27,821 - INFO - Epoch [50/100], Step [400/411], Loss: 0.214125
+2025-04-12 14:57:38,701 - INFO - End of Epoch [50/100] - Training Loss: 0.214314
+2025-04-12 14:58:38,757 - INFO - End of Epoch [50/100] - Validation Loss: 0.381848
+2025-04-12 14:58:38,758 - INFO - Epoch 50 duration: 583.73 seconds
+2025-04-12 14:58:39,326 - INFO - Checkpoint saved to training_output/checkpoints/checkpoint_epoch_50.pth
+2025-04-12 15:00:46,246 - INFO - Epoch [51/100], Step [100/411], Loss: 0.208436
+2025-04-12 15:02:53,590 - INFO - Epoch [51/100], Step [200/411], Loss: 0.208587
+2025-04-12 15:05:02,747 - INFO - Epoch [51/100], Step [300/411], Loss: 0.209270
+2025-04-12 15:07:07,067 - INFO - Epoch [51/100], Step [400/411], Loss: 0.210246
+2025-04-12 15:07:18,136 - INFO - End of Epoch [51/100] - Training Loss: 0.210333
+2025-04-12 15:08:18,329 - INFO - End of Epoch [51/100] - Validation Loss: 0.383773
+2025-04-12 15:08:18,329 - INFO - Epoch 51 duration: 579.00 seconds
+2025-04-12 15:10:25,487 - INFO - Epoch [52/100], Step [100/411], Loss: 0.203309
+2025-04-12 15:12:29,115 - INFO - Epoch [52/100], Step [200/411], Loss: 0.204159
+2025-04-12 15:14:35,053 - INFO - Epoch [52/100], Step [300/411], Loss: 0.205560
+2025-04-12 15:16:43,153 - INFO - Epoch [52/100], Step [400/411], Loss: 0.207353
+2025-04-12 15:16:57,423 - INFO - End of Epoch [52/100] - Training Loss: 0.207504
+2025-04-12 15:17:57,160 - INFO - End of Epoch [52/100] - Validation Loss: 0.386242
+2025-04-12 15:17:57,160 - INFO - Epoch 52 duration: 578.83 seconds
+2025-04-12 15:20:03,712 - INFO - Epoch [53/100], Step [100/411], Loss: 0.202532
+2025-04-12 15:22:07,747 - INFO - Epoch [53/100], Step [200/411], Loss: 0.202912
+2025-04-12 15:24:10,602 - INFO - Epoch [53/100], Step [300/411], Loss: 0.203914
+2025-04-12 15:26:16,795 - INFO - Epoch [53/100], Step [400/411], Loss: 0.204805
+2025-04-12 15:26:27,999 - INFO - End of Epoch [53/100] - Training Loss: 0.204924
+2025-04-12 15:27:28,171 - INFO - End of Epoch [53/100] - Validation Loss: 0.386439
+2025-04-12 15:27:28,171 - INFO - Epoch 53 duration: 571.01 seconds
+2025-04-12 15:29:35,552 - INFO - Epoch [54/100], Step [100/411], Loss: 0.198676
+2025-04-12 15:31:38,965 - INFO - Epoch [54/100], Step [200/411], Loss: 0.198495
+2025-04-12 15:33:45,326 - INFO - Epoch [54/100], Step [300/411], Loss: 0.199643
+2025-04-12 15:35:50,619 - INFO - Epoch [54/100], Step [400/411], Loss: 0.201178
+2025-04-12 15:36:04,571 - INFO - End of Epoch [54/100] - Training Loss: 0.201367
+2025-04-12 15:37:04,617 - INFO - End of Epoch [54/100] - Validation Loss: 0.389837
+2025-04-12 15:37:04,618 - INFO - Epoch 54 duration: 576.45 seconds
+2025-04-12 15:39:11,005 - INFO - Epoch [55/100], Step [100/411], Loss: 0.195511
+2025-04-12 15:41:16,737 - INFO - Epoch [55/100], Step [200/411], Loss: 0.196041
+2025-04-12 15:43:21,190 - INFO - Epoch [55/100], Step [300/411], Loss: 0.197235
+2025-04-12 15:45:25,711 - INFO - Epoch [55/100], Step [400/411], Loss: 0.198330
+2025-04-12 15:45:39,620 - INFO - End of Epoch [55/100] - Training Loss: 0.198456
+2025-04-12 15:46:39,364 - INFO - End of Epoch [55/100] - Validation Loss: 0.393663
+2025-04-12 15:46:39,364 - INFO - Epoch 55 duration: 574.75 seconds
+2025-04-12 15:48:46,343 - INFO - Epoch [56/100], Step [100/411], Loss: 0.190902
+2025-04-12 15:50:51,226 - INFO - Epoch [56/100], Step [200/411], Loss: 0.191817
+2025-04-12 15:52:54,807 - INFO - Epoch [56/100], Step [300/411], Loss: 0.193298
+2025-04-12 15:54:58,191 - INFO - Epoch [56/100], Step [400/411], Loss: 0.194860
+2025-04-12 15:55:10,803 - INFO - End of Epoch [56/100] - Training Loss: 0.194950
+2025-04-12 15:56:11,340 - INFO - End of Epoch [56/100] - Validation Loss: 0.396196
+2025-04-12 15:56:11,340 - INFO - Epoch 56 duration: 571.98 seconds
+2025-04-12 15:58:17,578 - INFO - Epoch [57/100], Step [100/411], Loss: 0.190010
+2025-04-12 16:00:24,854 - INFO - Epoch [57/100], Step [200/411], Loss: 0.191590
+2025-04-12 16:02:30,649 - INFO - Epoch [57/100], Step [300/411], Loss: 0.192234
+2025-04-12 16:04:34,474 - INFO - Epoch [57/100], Step [400/411], Loss: 0.193942
+2025-04-12 16:04:48,283 - INFO - End of Epoch [57/100] - Training Loss: 0.194126
+2025-04-12 16:05:48,128 - INFO - End of Epoch [57/100] - Validation Loss: 0.392916
+2025-04-12 16:05:48,128 - INFO - Epoch 57 duration: 576.79 seconds
+2025-04-12 16:07:54,891 - INFO - Epoch [58/100], Step [100/411], Loss: 0.186565
+2025-04-12 16:10:01,347 - INFO - Epoch [58/100], Step [200/411], Loss: 0.187788
+2025-04-12 16:12:07,737 - INFO - Epoch [58/100], Step [300/411], Loss: 0.188613
+2025-04-12 16:14:14,278 - INFO - Epoch [58/100], Step [400/411], Loss: 0.189944
+2025-04-12 16:14:25,321 - INFO - End of Epoch [58/100] - Training Loss: 0.190008
+2025-04-12 16:15:25,136 - INFO - End of Epoch [58/100] - Validation Loss: 0.395427
+2025-04-12 16:15:25,137 - INFO - Epoch 58 duration: 577.01 seconds
+2025-04-12 16:17:31,451 - INFO - Epoch [59/100], Step [100/411], Loss: 0.184648
+2025-04-12 16:19:35,015 - INFO - Epoch [59/100], Step [200/411], Loss: 0.184497
+2025-04-12 16:21:38,144 - INFO - Epoch [59/100], Step [300/411], Loss: 0.185863
