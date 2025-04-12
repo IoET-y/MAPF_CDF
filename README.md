@@ -101,9 +101,10 @@
 
 ```text
 your_project/
-├── dataset_configs/          # Your map config YAMLs
+├── dataset_configs/          #  map config YAMLs，same as https://github.com/CognitiveAISystems/MAPF-GPT/tree/main/dataset_configs
 │   └── 10-medium-mazes/
 │       └── maps.yaml....
+├── eval_configs/  #same as https://github.com/CognitiveAISystems/MAPF-GPT/tree/main/eval_configs
 ├── prepared_agent_centric_dataset_v3/ # Output of preprocessing
 │   ├── train/                  # Training NPZ files here
 │   │   └── map_seed_0000_agents8.npz
