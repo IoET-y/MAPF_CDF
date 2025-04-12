@@ -1,3 +1,4 @@
+```text
 your_project/
 ├── dataset_configs/          # Your map config YAMLs
 │   └── 10-medium-mazes/
